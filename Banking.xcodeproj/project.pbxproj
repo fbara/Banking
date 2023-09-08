@@ -12,6 +12,9 @@
 		ADE7DE422AA91F66007EA9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE7DE412AA91F66007EA9A8 /* Assets.xcassets */; };
 		ADE7DE452AA91F66007EA9A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE7DE442AA91F66007EA9A8 /* Preview Assets.xcassets */; };
 		ADE7DE4C2AAA448F007EA9A8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7DE4B2AAA448F007EA9A8 /* Data.swift */; };
+		ADE7DE502AAB6E44007EA9A8 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7DE4F2AAB6E44007EA9A8 /* CircleImageView.swift */; };
+		ADE7DE522AAB72B5007EA9A8 /* BankCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7DE512AAB72B5007EA9A8 /* BankCardView.swift */; };
+		ADE7DE542AAB7509007EA9A8 /* ShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7DE532AAB7509007EA9A8 /* ShareCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		ADE7DE412AA91F66007EA9A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE7DE442AA91F66007EA9A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADE7DE4B2AAA448F007EA9A8 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		ADE7DE4F2AAB6E44007EA9A8 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		ADE7DE512AAB72B5007EA9A8 /* BankCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardView.swift; sourceTree = "<group>"; };
+		ADE7DE532AAB7509007EA9A8 /* ShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 		ADE7DE4E2AAA44B1007EA9A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ADE7DE4F2AAB6E44007EA9A8 /* CircleImageView.swift */,
+				ADE7DE512AAB72B5007EA9A8 /* BankCardView.swift */,
+				ADE7DE532AAB7509007EA9A8 /* ShareCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE7DE542AAB7509007EA9A8 /* ShareCardView.swift in Sources */,
+				ADE7DE502AAB6E44007EA9A8 /* CircleImageView.swift in Sources */,
+				ADE7DE522AAB72B5007EA9A8 /* BankCardView.swift in Sources */,
 				ADE7DE402AA91F66007EA9A8 /* ContentView.swift in Sources */,
 				ADE7DE4C2AAA448F007EA9A8 /* Data.swift in Sources */,
 				ADE7DE3E2AA91F66007EA9A8 /* BankingApp.swift in Sources */,

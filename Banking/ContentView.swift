@@ -9,13 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(alignment: .leading) {
+                
+                VStack {
+                    
+                }
+                
+            }
+            .frame(maxHeight: .infinity, alignment: .top)
+            .toolbar {
+               ToolbarItemGroup(placement: .navigationBarLeading) {
+                   Text("Hello")
+                       .font(.system(size: 30))
+                       .fontWeight(.light)
+                   Text ("Frank")
+                       .font(.system(size: 30))
+                       .fontWeight(.bold)
+               }
+               
+               ToolbarItemGroup(placement: .navigationBarTrailing) {
+                   Image(systemName: "bell.badge")
+                       .foregroundStyle(Color.red, Color.black)
+                   CircleImageView(image: "1", size: 50)
+               }
+           }
         }
-        .padding()
     }
 }
 
